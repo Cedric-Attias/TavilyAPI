@@ -1,0 +1,11 @@
+asyncio
+nest_asyncio
+tavily
+pandas
+regex
+python-dateutil
+streamlit
+matplotlib
+seaborn
+wordcloud
+plotly
