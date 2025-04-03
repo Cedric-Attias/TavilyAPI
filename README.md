@@ -7,10 +7,12 @@ Features
 2.	Keyword Cloud: Generates a keyword cloud based on all collected blurbs from the search results.
 3.	Automated Data Extraction: Extracts publication dates, publishers, and summaries (blurbs) from the raw content using regex and text processing.
 4.	Visual Dashboard Interface: Built with Streamlit for easy and interactive visualization.
-________________________________________Dependencies
+________________________________________
+Dependencies
 Make sure you have all the necessary packages installed:
 streamlit tavily pandas matplotlib seaborn plotly wordcloud nest_asyncio
-________________________________________ File Structure
+________________________________________
+File Structure
 Bash
 Project_Folder/
 │
@@ -18,9 +20,6 @@ Project_Folder/
 ├── requirements.txt     # For deployment (optional)
 ├── README.md            # Project documentation (optional)
 ________________________________________
-
-
-
 How the Code Works
 1.	Initialization:
 o	Imports required libraries: pandas, streamlit, plotly, seaborn, matplotlib, and wordcloud.
